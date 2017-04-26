@@ -1,0 +1,19 @@
+layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+layout #layout-header {
+  background-color: #eca;
+  flex: 0 1 auto;
+}
+
+layout #layout-content {
+  background-color: #ccf;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

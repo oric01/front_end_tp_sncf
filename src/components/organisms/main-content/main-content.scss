@@ -1,0 +1,13 @@
+main-content {
+  // background-image:url('https://www.voyages-sncf.com/sites/default/files/2017-03-21_background_odv_ouigo.jpg');
+  // background-size:cover;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+  main-content-wrapper {
+    width:100%;
+    max-width: 960px;
+  }
+}

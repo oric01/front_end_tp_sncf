@@ -1,0 +1,32 @@
+resa-form-type-menu {
+  border:solid 1px #6b88d3;
+  box-shadow: 1px -1px 5px #6b88d3;
+
+  display: inline-flex;
+  flex-direction: row;
+  [resa-type] {
+    & + [resa-type] {
+      border-left: solid 1px #6b88d3;
+    }
+    &:hover {
+      background-color: #8fa1d3;
+    }
+  }
+}
+
+[resa-type] {
+  height:30px;
+  padding: 0 10px;
+  display:flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+[resa-type=train] {}
+[resa-type=plane] {}
+[resa-type=bus] {}
+[resa-type=car] {}
+[resa-type=hostel] {}
+[resa-type=stay] {}
+[resa-type=plane-hostel] {}

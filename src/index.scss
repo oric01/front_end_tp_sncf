@@ -1,0 +1,15 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css";
+
+@import "layout/layout.scss";
+  
+@import "components/organisms/main-header/main-header.scss";
+@import "components/organisms/main-content/main-content.scss";
+
+@import "components/molecules/resa-form-type-menu/resa-form-type-menu.scss";
+
+@import "components/atoms/menu-btn/menu-btn.scss";
+@import "components/atoms/login-btn/login-btn.scss";
+@import "components/atoms/basket-btn/basket-btn.scss";
+@import "components/atoms/language-select/language-select.scss";
+@import "components/atoms/help-btn/help-btn.scss";
+

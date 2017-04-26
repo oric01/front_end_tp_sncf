@@ -1,0 +1,42 @@
+{
+  "name": "front_end_tp_sncf",
+  "version": "1.0.0",
+  "description": "Pug-Sass Boilerplate Starter Kit is a Front-end web kit and boilerplate for building web apps or small sites using Pug(Jade) and Sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "npm run build && npm run watch && npm run serve",
+    "build": "./node_modules/.bin/gulp setup",
+    "watch": "./node_modules/.bin/gulp watch",
+    "serve": "./node_modules/.bin/http-server ./build",
+    "postinstall": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Errec/pug-sass-boilerplate-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Errec/pug-sass-boilerplate-starter-kit/issues"
+  },
+  "homepage": "https://github.com/Errec/pug-sass-boilerplate-starter-kit#readme",
+  "devDependencies": {
+    "beeper": "^1.1.1",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "http-server": "^0.9.0"
+  }
+}
