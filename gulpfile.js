@@ -68,8 +68,8 @@ gulp.task('setup', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('src/**/*.scss', ['styles']);
-    gulp.watch(['src/**/*.pug', './*.pug'], ['templates']);
+    gulp.watch('src/*.scss', ['styles']);
+    gulp.watch(['src/**/*.pug'], ['templates']);
     gulp.watch('src/img/**/*', ['images']);
 
 // init server

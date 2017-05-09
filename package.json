@@ -1,7 +1,11 @@
 {
   "name": "front_end_tp_sncf",
-  "version": "1.0.0",
-  "description": "Pug-Sass Boilerplate Starter Kit is a Front-end web kit and boilerplate for building web apps or small sites using Pug(Jade) and Sass",
+  "version": "0.0.0",
+  "description": "",
+  "engines": {
+    "node": "v6.9.0",
+    "npm": "3.10.8"
+  },
   "main": "gulpfile.js",
   "scripts": {
     "start": "npm run build && npm run watch && npm run serve",
