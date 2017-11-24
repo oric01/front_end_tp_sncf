@@ -43,7 +43,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('templates', function () {
-    gulp.src('./src/*.pug')
+    gulp.src('./src/**/*.pug')
         .pipe(plumber({errorHandler: onError}))
         .pipe(pug())
         .pipe(gulp.dest('build/'));
@@ -68,7 +68,7 @@ gulp.task('setup', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('src/*.scss', ['styles']);
+    gulp.watch('src/**/*.scss', ['styles']);
     gulp.watch(['src/**/*.pug'], ['templates']);
     gulp.watch('src/img/**/*', ['images']);
 
