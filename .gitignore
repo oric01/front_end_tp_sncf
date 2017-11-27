@@ -1,6 +1,6 @@
 node_modules/
 .idea/
-
+build/
 # bower_components:
 js/vendor
 
@@ -32,5 +32,5 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
-src/*.css
-src/*.html
+src/**/*.css
+src/**/*.html
